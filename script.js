@@ -14,6 +14,7 @@ const btn=document.getElementById('btn')
 save.addEventListener('click',function(){
     const d=new Date(date.value)
     let day=d.getDay()
+    
     if(day==1){
         mon.style.color="red"
     }
